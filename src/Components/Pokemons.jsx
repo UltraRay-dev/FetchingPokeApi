@@ -20,7 +20,7 @@ function PokemonInfo({ pokemon }) {
 
 function ObtenerPokemons() {
   const [pokemons, setPokemons] = useState([]);
-  const numeroDePokemons = 9; // Cantidad de pokemons que se desean cargar
+  const numeroDePokemons = 10; // Cantidad de pokemons que se desean cargar
 
   useEffect(() => {
     async function fetchPokemonData(numeroDePokemons) {
