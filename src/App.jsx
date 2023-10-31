@@ -3,7 +3,7 @@ import ObtenerPokemons from './Components/Pokemons'
 
 const App =() => {
   return (
-  <div>
+  <div classname='root'>
     <ObtenerPokemons/>
     </div>
   )
